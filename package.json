@@ -1,0 +1,44 @@
+{
+  "name": "hrushikesh-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Hrushikesh - Software Engineer",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "echo 'Push to GitHub repository for automatic deployment'",
+    "deploy:github": "git add . && git commit -m 'Update portfolio' && git push origin main",
+    "validate": "echo 'Validate HTML and CSS'",
+    "optimize": "echo 'Optimize images and minify files'",
+    "preview": "echo 'Preview at https://yourusername.github.io'"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "software-engineer",
+    "frontend",
+    "responsive",
+    "html5",
+    "css3",
+    "javascript"
+  ],
+  "author": "Hrushikesh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/portfolio-website.git"
+  },
+  "homepage": "https://yourdomain.com",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

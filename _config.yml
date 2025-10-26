@@ -1,0 +1,95 @@
+# GitHub Pages Configuration
+# This file configures GitHub Pages for your portfolio website
+
+# Site settings
+title: "Hrushikesh - Software Engineer Portfolio"
+description: "Software Engineer with 3+ years of experience building scalable web applications. Specializing in React, Node.js, and cloud technologies."
+author: "Hrushikesh"
+email: "hello@example.com"
+url: "https://yourdomain.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - DEPLOYMENT.md
+  - package.json
+  - optimize.js
+  - .gitignore
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+
+# Include files
+include:
+  - _redirects
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# SEO settings
+seo:
+  type: "Person"
+  name: "Hrushikesh"
+  job_title: "Software Engineer"
+  description: "Software Engineer with 3+ years of experience building scalable web applications"
+  url: "https://hrushikeshshelar.com"
+  image: "https://hrushikeshshelar.com/assets/og-image.jpg"
+  twitter:
+    username: "yourusername"
+  linkedin:
+    username: "yourusername"
+  github:
+    username: "yourusername"
+
+# Social media links
+social:
+  github: "https://github.com/yourusername"
+  linkedin: "https://linkedin.com/in/yourusername"
+  twitter: "https://twitter.com/yourusername"
+  email: "mailto:hello@example.com"
+
+# Analytics (uncomment and add your tracking ID)
+# google_analytics: "GA_TRACKING_ID"
+
+# Build settings for GitHub Pages
+sass:
+  sass_dir: css
+  style: compressed
+
+# Jekyll settings
+permalink: pretty
+timezone: UTC
+encoding: utf-8

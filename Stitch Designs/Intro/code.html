@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Hrushikesh - Software Engineer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&amp;family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+      }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#5E8C6A",
+              "secondary": "#A7C7E7",
+              "background-light": "#F8F7F4",
+              "background-dark": "#101922",
+              "text-light": "#333333",
+              "text-dark": "#E0E0E0"
+            },
+            fontFamily: {
+              "display": ["Poppins", "sans-serif"],
+              "body": ["Inter", "sans-serif"]
+            },
+            borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-body text-text-light dark:text-text-dark">
+<div class="relative flex min-h-screen w-full flex-col">
+<div class="layout-container flex h-full grow flex-col">
+<div class="flex flex-1 justify-center px-4 sm:px-8 md:px-16 lg:px-24 xl:px-40 py-5">
+<div class="layout-content-container flex flex-col w-full max-w-6xl flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-text-light/10 dark:border-text-dark/10 px-4 sm:px-6 md:px-10 py-4">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<span class="material-symbols-outlined text-3xl">
+                                    forest
+                                </span>
+</div>
+<h2 class="font-display text-lg font-bold leading-tight tracking-[-0.015em] text-text-light dark:text-text-dark">Hrushikesh</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<nav class="flex items-center gap-9">
+<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Projects</a>
+<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">About</a>
+<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Resume</a>
+<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-primary dark:hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-opacity-90 transition-opacity">
+<span class="truncate">Get in Touch</span>
+</button>
+</div>
+<div class="md:hidden">
+<button class="p-2">
+<span class="material-symbols-outlined text-2xl text-text-light dark:text-text-dark">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow">
+<div class="@container">
+<div class="flex flex-col-reverse gap-10 px-4 py-12 @[960px]:flex-row @[960px]:gap-16 @[960px]:items-center">
+<div class="flex flex-col gap-6 w-full @[960px]:w-1/2 @[960px]:justify-center text-center @[960px]:text-left">
+<div class="flex flex-col gap-4">
+<h1 class="font-display text-4xl font-bold leading-tight tracking-tight text-text-light dark:text-text-dark @[480px]:text-5xl">
+                                            Hi, I'm <span class="text-primary">Hrushikesh</span>. I build things for the web.
+                                        </h1>
+<p class="text-base font-normal leading-relaxed text-text-light/80 dark:text-text-dark/80">
+                                            A passionate software engineer with over 3 years of experience in crafting beautiful and functional web solutions. I specialize in building scalable applications that delight users and drive business goals.
+                                        </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center justify-center @[960px]:justify-start gap-4">
+<button class="w-full sm:w-auto flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-opacity-90 transition-opacity">
+<span class="truncate">Explore My Projects</span>
+</button>
+<div class="flex flex-wrap justify-center gap-2">
+<a class="flex flex-col items-center gap-2 py-2.5 text-center w-20 group" href="#">
+<div class="rounded-full bg-primary/20 dark:bg-primary/30 p-2.5 group-hover:bg-secondary/50 dark:group-hover:bg-secondary/50 transition-colors">
+<span class="material-symbols-outlined text-primary dark:text-white">code</span>
+</div>
+<p class="text-sm font-medium leading-normal text-text-light/80 dark:text-text-dark/80">GitHub</p>
+</a>
+<a class="flex flex-col items-center gap-2 py-2.5 text-center w-20 group" href="#">
+<div class="rounded-full bg-primary/20 dark:bg-primary/30 p-2.5 group-hover:bg-secondary/50 dark:group-hover:bg-secondary/50 transition-colors">
+<span class="material-symbols-outlined text-primary dark:text-white">group</span>
+</div>
+<p class="text-sm font-medium leading-normal text-text-light/80 dark:text-text-dark/80">LinkedIn</p>
+</a>
+<a class="flex flex-col items-center gap-2 py-2.5 text-center w-20 group" href="#">
+<div class="rounded-full bg-primary/20 dark:bg-primary/30 p-2.5 group-hover:bg-secondary/50 dark:group-hover:bg-secondary/50 transition-colors">
+<span class="material-symbols-outlined text-primary dark:text-white">description</span>
+</div>
+<p class="text-sm font-medium leading-normal text-text-light/80 dark:text-text-dark/80">Resume</p>
+</a>
+</div>
+</div>
+</div>
+<div class="w-full @[960px]:w-1/2">
+<div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl shadow-lg" data-alt="A ghibli-themed illustration of a software engineer sitting at a desk with a laptop, surrounded by plants and looking out a window." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCbn-4ISP8oFF2P6yVLaicbMb4LocsMkUONE9PGMEcFOKwBv3SZAqTeFw5WSA7-tXZdWsTTmoHQDYCAdZKS8Uza-ce84A6LNNeTaNh-kNvlcqKeOpzvHxdcwVZ8BFm9LG5qQnvHer0L7ZEQ8y5vJk2-hNUtUzM6Wi6LIhl6i_7jxj58cdHmYfGfSpmMkNHc6hdPiV9ErHEbfzGipwDR1t25VDNxf0h67teRlWsIYDSV2clviJVuRvnr2cfa3pYzYFS9bNiN084mOPA");'></div>
+</div>
+</div>
+</div>
+<div class="py-12">
+<h4 class="text-text-light/60 dark:text-text-dark/60 text-sm font-bold leading-normal tracking-[0.015em] px-4 py-2 text-center">Trusted by innovative companies and startups</h4>
+<div class="grid grid-cols-3 gap-6 p-4 items-center max-w-2xl mx-auto">
+<div class="flex justify-center">
+<img class="h-8 filter grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all dark:invert dark:opacity-40 dark:hover:opacity-100" data-alt="Company One logo, a stylized letter 'C'" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNPSF8llmF4okhrNwGQGzA5dLssySKbQkCVOpaFaXAxuxJv3mpHHLFuVJaUpbvwJGbceiTAXiBvMnv9EaabzBl9KoiuVMLCXn3FwV70bIaUh2ldwoimg7tqHbKqEQ3hhF8UdAyr0Jux3u2D_cx5pf00rH80TK7Q2DuPBjtjCs-X0crP7xebCVfl8Mk3kAw2FIajLbkMTtIcfAiBZWrQkr2W_30auoMLjlMuIrR0fBXRKMPgSrfBATYiZH4SLacywOmqAUCfYmArgA"/>
+</div>
+<div class="flex justify-center">
+<img class="h-8 filter grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all dark:invert dark:opacity-40 dark:hover:opacity-100" data-alt="Company Two logo, an abstract geometric shape" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-ruN05egQ_tP2_W9uENXjLSZhZOEANKbFs8nbOEg6v6M8gvvsU1l-kmZr5Ermf2hIeYU__GoKE9ClClSkFD8T5vutjbrC8r0GryVFG6Bl7jvQ9XcILfKZfAOjhx-Lh1JL2Clc6PYuGg6Z7YR_fVaAcIFkMrcy1L0xs3joiFyEDiyeHSRMprRkzpbi59VCJUcMw1SCAy3LxJCZajA3_aOETDnwvfG8Aj37n_FIJ83vXiFeuc2Y6cZ1wQfEXj2I4xYiWaPBapREeCY"/>
+</div>
+<div class="flex justify-center">
+<img class="h-8 filter grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all dark:invert dark:opacity-40 dark:hover:opacity-100" data-alt="Company Three logo, a minimalist bird icon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzMMEWb90aEVkvk1selSjpdRz-zHPskDhWEr1ajrQ1AYAoCt4zDyvlJ1ItiJddsW-sBhhUO6rgfzsHkBBgcjRmPIHVH0h8KlN24tVEBjG_70YqHMwSNGk1_rp55j0DZ3BrwzohcKfc0wNtxzJvEfe34tQz3HhTP1X2VCsTmYnExve-YQLnBgJO6YC7HzQFnY4kg-Vo-Fsw2i2mCkUz-dbHt25tvTL85ZnnGj5Z-FU1LfyU6RBAPwoaxfNPDXab08FmFvR3UwRvCHk"/>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+</div>
+</div>
+</body></html>

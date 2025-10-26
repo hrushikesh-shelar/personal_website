@@ -1,0 +1,8 @@
+# Netlify-style redirects for GitHub Pages
+# This file handles URL redirects and custom 404 pages
+
+# Redirect old URLs to new ones (if needed)
+# /old-page /new-page 301
+
+# Custom 404 page
+/* /404.html 404
