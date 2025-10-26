@@ -5,12 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Ensure body is visible by default */
-body {
-    visibility: visible !important;
-    opacity: 1 !important;
-}
-
 :root {
     /* Color Palette */
     --primary: #5E8C6A;
