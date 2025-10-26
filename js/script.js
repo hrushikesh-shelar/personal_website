@@ -1,13 +1,21 @@
 // ===== PORTFOLIO WEBSITE JAVASCRIPT =====
 
-// DOM Elements
-const navbar = document.getElementById('navbar');
-const navMenu = document.getElementById('nav-menu');
-const navToggle = document.getElementById('nav-toggle');
-const navLinks = document.querySelectorAll('.nav-link');
-const contactForm = document.getElementById('contact-form');
-const filterButtons = document.querySelectorAll('.filter-btn');
-const projectCards = document.querySelectorAll('.project-card');
+// Wait for DOM to be fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // DOM Elements
+    const navbar = document.getElementById('navbar');
+    const navMenu = document.getElementById('nav-menu');
+    const navToggle = document.getElementById('nav-toggle');
+    const navLinks = document.querySelectorAll('.nav-link');
+    const contactForm = document.getElementById('contact-form');
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    // Check if elements exist before proceeding
+    if (!navbar || !navMenu || !navToggle) {
+        console.error('Required navigation elements not found');
+        return;
+    }
 
 // ===== NAVIGATION FUNCTIONALITY =====
 
@@ -462,3 +470,5 @@ if (typeof module !== 'undefined' && module.exports) {
         throttle
     };
 }
+
+}); // End of DOMContentLoaded
